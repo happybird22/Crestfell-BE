@@ -16,3 +16,5 @@ export function rollD20(count = 1, modifier = 0, target = undefined) {
   const success = (typeof target === 'number') ? (total >= target) : undefined;
   return { rolls, subtotal, modifier, total, success };
 }
+
+const result = contestedRoll(attacker.insight, defender.deception);
